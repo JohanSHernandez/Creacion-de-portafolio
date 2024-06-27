@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de Vida</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bloque1">
+        <h1>HOJA DE VIDA</h1>
+        <H2>PARA SOLICITUD DE EMPLEO</H2>
+    </div>
+    <form method="post">
+            <label for="fecha">Fecha</label>
+            <input type="date" name="fecha" placeholder="dd/mm/aa">
+            <label for="empleo">Empleo en el que está interesado </label>
+            <input type="empleo" name="empleo">
+            <label for="codigo">Código cargo </label>
+            <input type="codigo" name="codigo">
+        <table>
+                 <thead>    
+                    <th colspan="8"><h2>I. INFORMACIÓN GENERAL</h2></th>
+                 </thead>
+                 <tbody class="cuerpo1">
+                    <th>Apellidos del aspirante</th>
+                    <th>Nombre del aspirante</th>
+                    <th class="foto3x4" rowspan="4" colspan="5"><input type="button" value="Foto 3x4" name="foto3x4"></th>
+                    <tr>
+                        <td>
+                            <label for="apellidos">Apellidos del aspirante</label>
+                            <input type="tex" name="apellidos"></td>
+                        <td>
+                            <label for="nombre">Nombres del aspirante</label>
+                            <input type="tex" name="nombre">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="direccion">Direcció domicilio</label>
+                            <input type="tex" name="direccion">
+                        </td>
+                        <td>
+                            <label for="ciudad">Ciudad</label>
+                            <input type="tex" name="ciudad">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="correo">Correo Electrónico</label>
+                            <input type="tex" name="correo">
+                        </td>
+                        <td>
+                            <label for="nacionalidad">Nacionalidad</label>
+                            <input type="tex" name="nacionalidad">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="profesion">Profesión, Ocupación u oficio</label>
+                            <input type="tex" name="profesion">
+                        </td>
+                        <td>
+                            <label for="estado">Estado Civil</label>
+                            <input type="tex" name="estado">
+                        </td>
+                        <td colspan="5">
+                            <label for="experiencia">Años de experiencia Laboral</label>
+                            <input type="tex" name="experiencia">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th colspan="8"><h2>DOCUMENTACIÓN</h2></th>
+                    </tr>
+                    <tr class="documentacion">
+                        <td colspan="4">
+                            <label for="cedula">Cedula</label>
+                            <input type="checkbox">
+                            <label for="numeroc">Numero de Cedula</label>
+                            <input class="cedula" type="text" name="numeroc">
+                        </td>
+                        <td colspan="2">
+                            <label for="libreta">Libreta</label>
+                            <input class="libreta" type="text" name="libreta">
+                            <p>
+                            <label for="Distrito">Distrito N°</label>
+                            <input class="distrito" type="text" name="distrito">
+
+                        </td>
+                        <td colspan="2">
+                            <label for="clase1">Primera clase</label>
+                            <input type="checkbox">
+                            <p>
+                            <label for="clase2">Segunda Clase</label>
+                            <input type="checkbox">
+                        </td>
+                    <tr>
+                        <td colspan="2">
+                            <label for="tarjeta">Tarjeta Profesional N° </label>
+                            <input type="text" name="tarjeta">
+                        </td>
+                        <td colspan="2">
+                            <p>¿Tiene Vehiculo?</p>
+                            <label for="opcionsi">Si</label>
+                            <input type="checkbox">
+                            <label for="opcionno">No</label>
+                            <input type="checkbox">
+                        </td>
+                        <td colspan="2">
+                            <label for="licencia">Licencia de Conduccion N°</label>
+                            <input type="text" name="licencia">
+                        </td>
+                        <td colspan="2">
+                            <label for="categoria">Categoria</label>
+                            <input type="text" name="categoria">
+                        </td>
+                    </tr>
+                    <tr>
+                            <th colspan="8"><h2>II. INFORMACION PERSONAL</h2></th>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <p>¿Está trabajando actualmente?</p>
+                            <label for="opcionsi1">Si</label>
+                            <input type="checkbox">
+                            <label for="opcionno1">No</label>
+                            <input type="checkbox">
+                        </td>
+                        <td colspan="3">
+                            <label for="empresa">¿En qué Empresa?</label>
+                            <input type="text" name="empresa">
+                        </td>
+                        <td>
+                            <label for="empleado">Empleado</label>
+                            <input type="checkbox">
+                            <label for="independiente">Independiente</label>
+                            <input type="checkbox">
+                        </td>
+                        <td colspan="3">
+                            <label for="contrato">Tipo de Contrato</label>
+                            <input type="text" name="contrato">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>¿Trabajó antes en esta empresa?</p>
+                            <label for="opcionsi2">Si</label>
+                            <input type="checkbox">
+                            <label for="opcionno2">No</label>
+                            <input type="checkbox">
+                        </td>
+                        <td>
+                            <p>¿Solicitó empleo antes en esta empresa?</p>
+                            <label for="opcionsi3">Si</label>
+                            <input type="checkbox">
+                            <label for="opcionno3">No</label>
+                            <input type="checkbox">
+                        </td>
+                        <td>
+                            <label for="fechatrabajo">Fecha</label>
+                            <input type="date" name="fechatrabajo">
+                        </td>
+                        <td>
+                            <p>¿Lo recomienda alguien de esta empresa?</p>
+                            <label for="opcionsi3">Si</label>
+                            <input type="checkbox">
+                            <label for="opcionno3">No</label>
+                            <input type="checkbox">
+                        </td>
+                        <td>
+                            <label for="nombrerecomendado">Nombre</label>
+                            <input type="text" name="nombrerecomendado">
+                            <label for="dependencia">Dependencia</label>
+                            <input type="text" name="dependencia">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>¿Tiene parientes que trabajan en esta empresa</td>
+                        <td>
+                            <label for="opcionsi4">Si</label>
+                            <input type="checkbox">
+                            <label for="opcionno4">No</label>
+                            <input type="checkbox"> 
+                        </td>
+                        <td>
+                            <label for="nombrerecomendado1">Nombre</label>
+                            <input type="text" name="nombrerecomendado1">
+                            <label for="dependencia1">Dependencia</label>
+                            <input type="text" name="dependencia1">
+                        </td>
+                        <td>¿Como tuvo conocimiento de la existencia de la vacante?</td>
+                    </tr>
+                    <tr>
+                       <td>
+                        <label for="anuncio">anuncio</label>
+                        <input type="checkbox">
+                        <label for="amigo">Amigo</label>
+                        <input type="checkbox">
+                       </td>
+                       <td>
+                        <label for="agencia">Por medio de agencia</label>
+                        <input type="checkbox">
+                        <label for="otro">Otro</label>
+                        <input type="checkbox">
+                        <label for="cual">¿Cual?</label>
+                        <input type="text" name="cual">
+                       </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="ciudadmayorduracion">¿En que ciudad o poblacion ha vivido la mayor parte de su vida?</label>
+                            <input type="text" name="ciudadmayorduracion">  
+                        </td>
+                        <td>
+                            <label for="lugarestrabajo">¿En que ciudades o regiones del pais ha trabajado?</label>
+                            <input type="text" name="lugarestrabajo">  
+                        </td>
+                        <td>¿Aceptaria trabajar en una ciudad o sitio distinto al inicialmente contratado?</td>
+                        <td>
+                            <label for="opcionsi5">Si</label>
+                            <input type="checkbox">
+                            <label for="opcionno5">No</label>
+                            <input type="checkbox"> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Vive en casa:</td>
+                        <td>
+                            <label for="familiar">¿Familiar?</label>
+                            <input type="checkbox">
+                            <label for="propia">Propia?</label>
+                            <input type="checkbox">
+                            <label for="alquilada">¿Alquilada?</label>
+                            <input type="checkbox">
+                        </td> 
+                        <td>
+                            <label for="arrendador">Nombre del arrendador</label>
+                            <input type="text" name="arrendador">
+                        </td>
+                        <td>
+                            <label for="telefonoarrendador">Telefono</label>
+                            <input type="text" name="telefonoarrendador">
+                        </td>
+                        <td>
+                            <label for="tiemporesidencia">¿Hace cuanto tiempo reside en este lugar?</label>
+                            <input type="text" name="tiemporesidencia">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>¿Actualmente tiene algun ingreso adicional?</td>
+                        <td>
+                            <label for="opcionsi6">Si</label>
+                            <input type="checkbox">
+                            <label for="opcionno6">No</label>
+                            <input type="checkbox">
+                        </td>
+                        <td>
+                            <label for="valormensual">Describalo e indique su valor mensual</label>
+                            <input type="text" name="valormensual"> 
+                        </td>
+                        <td>
+                            <label for="obligaciones">¿Cuanto suman sus obligaciones economicas mensuales?</label>
+                            <input type="number" name="obligacioines">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="conceptos">¿Por qué conceptos?</label>
+                            <input type="text" name="conceptos">
+                        </td>
+                        <td>
+                            <label for="aspiracion">¿Cuanto es su aspiracion salarial?</label>
+                            <input type="number" name="aspiracion">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="aficiones">¿Cuál es su principal aficion?</label>
+                            <input type="text" name="aficiones">
+                        </td>
+                        <td>¿Practica algún deporte?
+                            <label for="opcionsi7">Si</label>
+                            <input type="checkbox">
+                            <label for="opcionno7">No</label>
+                            <input type="checkbox">
+                        </td>
+                        <td>
+                            <label for="deporte">¿Cuál?</label>
+                            <input type="text" name="deporte">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>¿Alguna vez has obtenido distinciones o reconocimientos por su desempeño en actividades deportivas, culturales, sociales, etc.?</td></tr>
+                    <tr>
+                        <td>
+                            <label for="opcionsi8">Si</label>
+                            <input type="checkbox">
+                            <label for="opcionno8">No</label>
+                            <input type="checkbox">  
+                        </td>
+                        <td>
+                            <label for="distinciones">¿Cuales?</label>
+                            <input type="text" name="distinciones">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>¿Pertenece a algun tipo de asociacion comunitaria, deportiva, cultural, etc.?</td></tr>
+                    <tr>
+                        <td>
+                            <label for="opcionsi9">Si</label>
+                            <input type="checkbox">
+                            <label for="opcionno9">No</label>
+                            <input type="checkbox">  
+                        </td>
+                        <td>
+                            <label for="asociacioncomunitaria">¿Cuales?</label>
+                            <input type="text" name="asociacioncomunitaria">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h3>OBJETIVO</h3>
+                        </td>
+                        <td>
+                            <label for="expectativas">Mencione brevemente que expectativas tiene a nivel laboral, educativo y personal e indique como planea hacerlas realidad.</label>
+                            <input type="text"name>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="./Paginas/informacionfamiliar.html">Siguiente Pagina</a></td>
+                    </tr>
+                 </tbody>
+     </form>
+
+        </table>
+
+</body>
+</html>

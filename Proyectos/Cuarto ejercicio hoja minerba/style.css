@@ -1,0 +1,23 @@
+body{
+    margin: 70px;
+}
+table{
+    border-collapse: collapse;
+    border: 1px solid;
+    margin: 15px;
+}
+table th, td {
+    border: 1px solid;
+}
+.cuerpo1{
+    width: 98%;
+}
+.cuerpo1 input{
+    width: 98%;
+}
+.documentacion input{
+    width: auto;
+}
+.documentacion input[type="text"]{
+    width: 450px;
+}
